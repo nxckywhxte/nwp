@@ -1,0 +1,11 @@
+{
+    "arrowParens": "avoid",
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "strict",
+    "jsxSingleQuote": true,
+    "semi": false,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "singleAttributePerLine": true
+}
