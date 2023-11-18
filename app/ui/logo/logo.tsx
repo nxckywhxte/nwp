@@ -1,20 +1,17 @@
 import Link from 'next/link'
-import './logo.module.css'
 
 type LogoProps = {
-    href: string
-    name: string
+  href: string
+  name: string
 }
 
-
-const Logo = ({href, name}: LogoProps) => {
+const Logo = ({ href, name }: LogoProps) => {
   return (
-      <Link
-          className='text-xl font-semibold'
-          href={href}
-      >
-          @{name}
-      </Link>
+    <Link
+      className='text-xl dark:hover:text-drPurple font-semibold'
+      href={href}>
+      @{name}
+    </Link>
   )
 }
 
